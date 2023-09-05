@@ -5,7 +5,7 @@ Design the data structure and build a RESTful API which Event create app related
 
 
 * The deployed backend api url
-``
+`https://create-event-mern-stack-app.vercel.app`
 
 
 ## Events Home Page
