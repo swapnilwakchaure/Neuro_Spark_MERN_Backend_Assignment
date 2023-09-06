@@ -1,0 +1,125 @@
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.2',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '83b32096-b46f-4267-b7fb-e7213c6ab64b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP GET /',
+  timestamp: '2023-09-06T14:23:18.453Z'
+}
+{
+  meta: {
+    req: {
+      url: '/create',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.2',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '18b52df2-3a06-4869-9f3b-993acdab0a71',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/create',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 87
+  },
+  level: 'info',
+  message: 'HTTP GET /create',
+  timestamp: '2023-09-06T14:23:47.594Z'
+}
+{
+  meta: {
+    req: {
+      url: '/400',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.2',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'ca13a9d4-ffaa-4740-8682-8c41d1477a3c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/400',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP GET /400',
+  timestamp: '2023-09-06T14:25:18.478Z'
+}
+{
+  meta: {
+    req: {
+      url: '/400',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.2',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '14a003f6-91e8-4b8e-b86c-04a8b582099c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/400',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 3
+  },
+  level: 'warn',
+  message: 'HTTP GET /400',
+  timestamp: '2023-09-06T14:25:49.571Z'
+}
+{
+  meta: {
+    req: {
+      url: '/500',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.2',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '6c225002-5fc0-4a8b-8c98-b7e91bb1d1e7',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/500',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 4
+  },
+  level: 'error',
+  message: 'HTTP GET /500',
+  timestamp: '2023-09-06T14:27:08.710Z'
+}

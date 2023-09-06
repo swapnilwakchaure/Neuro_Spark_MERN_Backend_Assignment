@@ -1,0 +1,25 @@
+{
+  meta: {
+    req: {
+      url: '/500',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.2',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '6c225002-5fc0-4a8b-8c98-b7e91bb1d1e7',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/500',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 4
+  },
+  level: 'error',
+  message: 'HTTP GET /500',
+  timestamp: '2023-09-06T14:27:08.710Z'
+}
